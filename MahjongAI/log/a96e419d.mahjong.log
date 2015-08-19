@@ -1,0 +1,77 @@
+ver 1.0
+Mahjong Contest Round 22 Game 1
+main.exe
+main.exe
+main.exe
+main.exe
+0
+6S 6S 9M 5M 5T N 3T 3M N S 5T 4M S
+8M 8M 5T N 1T B 5T 9S W 9S 2S 9T 4S
+2S B 6M F 4T 2M 7S 2T E 8S 8T 7M E
+7T 1S Z 2M S 9S 2M W 3M 6S 7M 1M 1S
+
+pick 0 4M
+out 0 4M
+pick 1 6S
+out 1 W
+pick 2 F
+out 2 B
+pick 3 8T
+out 3 W
+pick 0 8S
+out 0 9M
+pick 1 5S
+out 1 B
+pick 2 5M
+out 2 2M
+peng 3 2 2M
+out 3 S
+peng 0 3 S
+out 0 8S
+pick 1 4S
+out 1 N
+peng 0 1 N
+out 0 3T
+pick 1 4T
+out 1 1T
+pick 2 7M
+out 2 7M
+pick 3 S
+out 3 S
+pick 0 6T
+out 0 6T
+chi 1 0 4T
+out 1 8M
+chi 2 1 6M
+out 2 2S
+pick 3 6M
+out 3 Z
+pick 0 2T
+out 0 2T
+pick 1 2S
+out 1 4S
+pick 2 7S
+out 2 8S
+pick 3 4S
+out 3 9S
+peng 1 3 9S
+out 1 8M
+pick 2 5M
+out 2 2T
+pick 3 5S
+out 3 1M
+pick 0 7S
+out 0 7S
+peng 2 0 7S
+out 2 5M
+chi 3 2 5M
+out 3 3M
+chi 0 3 3M
+out 0 3M
+pick 1 9T
+out 1 5T
+hu 0
+
+win 0 ron 1
+fans 0
+score 0

@@ -1,0 +1,79 @@
+ver 1.0
+Mahjong Contest Round 11 Game 3
+main.exe
+main.exe
+main.exe
+main.exe
+1
+5T 5S 7T 1M B 4S 8S 5M 6T 3S 8M 3M 2M
+6M B 9T W N 2M 7T 3M E 2S 6S 2S S
+7T 3S S 6S W 6M 7S 8S 2T Z 1T 6M 8T
+9M 4M 5T 9M 9M 2T 9S 7S 6M F 4T 9S 3M
+
+pick 1 5S
+out 1 E
+pick 2 9T
+out 2 S
+pick 3 3T
+out 3 F
+pick 0 F
+out 0 F
+pick 1 N
+out 1 S
+pick 2 Z
+out 2 W
+pick 3 4M
+out 3 2T
+pick 0 2S
+out 0 B
+pick 1 1T
+out 1 W
+pick 2 7S
+out 2 7S
+pick 3 8T
+out 3 8T
+pick 0 F
+out 0 F
+pick 1 1M
+out 1 B
+pick 2 7S
+out 2 7S
+pick 3 2T
+out 3 5T
+pick 0 F
+out 0 F
+pick 1 E
+out 1 E
+pick 2 1S
+out 2 6M
+pick 3 6S
+out 3 3M
+chi 0 3 1M
+out 0 2S
+peng 1 0 2S
+out 1 6M
+pick 2 3S
+out 2 1S
+pick 3 4T
+out 3 4T
+chi 0 3 4T
+out 0 8S
+pick 1 Z
+out 1 Z
+peng 2 1 Z
+out 2 6M
+pick 3 5S
+out 3 6M
+pick 0 5M
+out 0 3M
+chi 1 0 1M
+out 1 3M
+pick 2 3T
+hu 2
+
+win 2 tsumo
+fans 3
+单调将:1
+箭刻:2
+自摸:1
+score 4

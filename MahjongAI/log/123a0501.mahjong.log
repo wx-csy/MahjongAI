@@ -1,0 +1,108 @@
+ver 1.0
+Mahjong Contest Round 6 Game 4
+main.exe
+main.exe
+main.exe
+main.exe
+2
+4M 8T 7M 9T 3T 3M 7S 6T 3S N Z 1T 6T
+7M 2M 7T 1M 2S 8M 1T 1T B 7T N 7M 9M
+2T 5S 4S S 6M 9M 2T 3T 7T 2S 9S 1M 5T
+B 3T 6S 3M 6M 7S 8S 2T S S 5T 1M 6M
+
+pick 2 E
+out 2 E
+pick 3 W
+out 3 W
+pick 0 9S
+out 0 N
+pick 1 6M
+out 1 N
+pick 2 4T
+out 2 S
+peng 3 2 S
+out 3 B
+pick 0 5M
+out 0 Z
+pick 1 2S
+out 1 B
+pick 2 1S
+out 2 7T
+peng 1 2 7T
+out 1 1M
+pick 2 3S
+out 2 9S
+pick 3 8M
+out 3 8M
+pick 0 N
+out 0 N
+pick 1 W
+out 1 W
+pick 2 8T
+out 2 8T
+pick 3 1S
+out 3 1S
+pick 0 5M
+out 0 3S
+pick 1 5S
+out 1 2M
+pick 2 E
+out 2 E
+pick 3 6T
+out 3 2T
+peng 2 3 2T
+out 2 1M
+pick 3 1S
+out 3 1S
+pick 0 2M
+out 0 7M
+peng 1 0 7M
+out 1 5S
+chi 2 1 3S
+out 2 6M
+peng 3 2 6M
+out 3 6T
+peng 0 3 6T
+out 0 2M
+pick 1 9T
+out 1 9T
+pick 2 8M
+out 2 9M
+pick 3 1M
+out 3 3M
+pick 0 8T
+out 0 5M
+pick 1 3M
+out 1 6M
+pick 2 9T
+out 2 9T
+pick 3 9M
+out 3 9M
+pick 0 8S
+out 0 1T
+peng 1 0 1T
+out 1 3M
+pick 2 2T
+jgang 2 2T
+pick 2 4M
+out 2 8M
+pick 3 4S
+out 3 4S
+pick 0 6S
+out 0 9S
+pick 1 9M
+out 1 8M
+pick 2 6T
+out 2 3T
+pick 3 7S
+out 3 7S
+chi 0 3 6S
+out 0 3M
+pick 1 2S
+hu 1
+
+win 1 tsumo
+fans 2
+自摸:1
+碰碰和:6
+score 7

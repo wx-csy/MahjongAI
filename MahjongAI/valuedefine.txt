@@ -1,0 +1,9 @@
+triplet		40			2m 2m 2m
+sequence	36			2m 3m 3m
+pair		6+a[x]*2		2m 2m
+semi-seq	2+a[x-1]*2+a[x+2]*2	2m 3m
+ridge-seq	2+a[x+1]*2		2m 4m
+single		a[x]-6			2m
+addkong		4			2m (2m 2m 2m) already
+ankong		44			2m 2m 2m 2m
+directkong	44			2m 2m 2m 2m

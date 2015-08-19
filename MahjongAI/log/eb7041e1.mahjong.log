@@ -1,0 +1,122 @@
+ver 1.0
+Mahjong Contest Round 8 Game 1
+main.exe
+main.exe
+main.exe
+main.exe
+3
+N E 8M 4M E 9T 6S 4S 4T 7M F 6S 1S
+S 9T 2S 3S 2T 9T 7T 2T 9M 1M 3M 5S 8M
+S 3T 5M 3S 5M 2M 1T 7T 8S 9S F 9M B
+8M 4S 4M S 1M 7M F 8T 2T 5T 1T 6S 3S
+
+pick 3 4T
+out 3 S
+pick 0 4T
+out 0 N
+pick 1 6S
+out 1 S
+pick 2 2T
+out 2 S
+pick 3 E
+out 3 E
+peng 0 3 E
+out 0 F
+pick 1 5M
+out 1 7T
+pick 2 9T
+out 2 F
+pick 3 1T
+out 3 F
+pick 0 5M
+out 0 9T
+peng 1 0 9T
+out 1 1M
+pick 2 1S
+out 2 B
+pick 3 1M
+out 3 4M
+pick 0 9S
+out 0 1S
+chi 1 0 1S
+out 1 3M
+pick 2 9M
+out 2 2M
+pick 3 Z
+out 3 Z
+pick 0 7M
+out 0 4M
+pick 1 1T
+out 1 1T
+peng 3 1 1T
+out 3 3S
+pick 0 4S
+out 0 9S
+pick 1 8S
+out 1 5M
+peng 2 1 5M
+out 2 9M
+chi 3 2 7M
+out 3 1M
+pick 0 8T
+out 0 8T
+pick 1 7S
+out 1 5S
+pick 2 5T
+out 2 9T
+pick 3 5S
+out 3 1M
+pick 0 3M
+out 0 8M
+pick 1 3M
+out 1 8M
+pick 2 9S
+out 2 8S
+pick 3 2M
+out 3 2T
+peng 1 3 2T
+out 1 3M
+pick 2 B
+out 2 B
+pick 3 3M
+out 3 8T
+pick 0 2M
+out 0 2M
+pick 1 B
+out 1 B
+pick 2 5T
+out 2 7T
+pick 3 Z
+out 3 Z
+pick 0 6M
+out 0 7M
+pick 1 S
+out 1 S
+pick 2 F
+out 2 F
+pick 3 4M
+out 3 4T
+peng 0 3 4T
+out 0 3M
+pick 1 6T
+out 1 9M
+pick 2 Z
+out 2 Z
+pick 3 8S
+out 3 8S
+pick 0 7M
+out 0 7M
+pick 1 W
+out 1 W
+pick 2 4M
+out 2 9M
+pick 3 1S
+out 3 1S
+pick 0 5T
+out 0 5T
+hu 3
+
+win 3 ron 0
+fans 1
+单调将:1
+score 1

@@ -1,0 +1,61 @@
+ver 1.0
+Mahjong Contest Round 10 Game 2
+main.exe
+main.exe
+main.exe
+main.exe
+3
+6T 5S 6T W 3M 9T 3M 1M 5M N 1T 5S 3S
+9S 6S 5T 9S 8T S 4T 2T 6M 8T 2S 5T 6M
+6T 6S S 1T 8M 8S 9M 4S 4M 3S 5M Z 2M
+7T 2M Z E 4M 3S 1S W 9S 4S 1S 7T 7S
+
+pick 3 4M
+out 3 E
+pick 0 7M
+out 0 W
+pick 1 8S
+out 1 S
+pick 2 2S
+out 2 S
+pick 3 2T
+out 3 W
+pick 0 2T
+out 0 N
+pick 1 6S
+out 1 8S
+pick 2 B
+out 2 B
+pick 3 9T
+out 3 Z
+pick 0 1M
+out 0 9T
+pick 1 Z
+out 1 Z
+pick 2 F
+out 2 F
+pick 3 7M
+out 3 2M
+chi 0 3 1M
+out 0 3S
+pick 1 5S
+out 1 5S
+peng 0 1 5S
+out 0 1M
+pick 1 8S
+out 1 8S
+pick 2 1S
+out 2 Z
+pick 3 W
+out 3 W
+pick 0 3T
+out 0 3M
+pick 1 2S
+out 1 6M
+hu 0
+
+win 0 ron 1
+fans 2
+喜相逢:1
+单调将:1
+score 2
