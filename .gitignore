@@ -1,4 +1,4 @@
-*.mahjong.log
+*.log
 *.exe
-log
-sample
+log/*
+sample/*
