@@ -12,6 +12,7 @@ void StatHand(){
 
 bool TestHu(){
 	bool haspair=false;
+	if (TestSevenPairs() || TestThirteenHonors()) return true;
 	for (int i=DONG;i<=BAI;i++){
 		if (ColorCount[i]==1) return false;
 		if (ColorCount[i]==2){
@@ -32,6 +33,30 @@ bool TestHu(){
 	if (ColorCount[WAN]%3==0 && ColorCount[SUO]%3==0 && ColorCount[TONG]%3==0 && haspair){
 		return TestColor(WAN,1,0) && TestColor(SUO,1,0) && TestColor(TONG,1,0);
 	}
+	return false;
+}
+
+bool TestSevenPairs(){
+	int n=0;
+	for (int i=DONG;i<BAI;i++){
+		if (HandCount[i][0]%2==1) return false;
+		n+=HandCount[i][0]/2;
+	}
+	for (int i=WAN;i<=TONG;i++){
+		for (int j=1;j<=9;j++){
+			if (HandCount[i][j]%2==1) return false;
+			n+=HandCount[i][j]/2;
+		}
+	}
+	return n==7;
+} 
+
+bool TestThirteenHonors(){
+	if (HandCount[DONG][0]>=1 && HandCount[NAN][0]>=1 && HandCount[XI][0]>=1 && HandCount[BEI][0]>=1 && 
+		HandCount[ZHONG][0]>=1 && HandCount[FA][0]>=1 && HandCount[BAI][0]>=1 &&
+		HandCount[WAN][1]>=1 && HandCount[SUO][1]>=1 && HandCount[TONG][1]>=1 &&
+		HandCount[WAN][9]>=1 && HandCount[SUO][9]>=1 && HandCount[TONG][9]>=1)
+		return true;
 	return false;
 }
 

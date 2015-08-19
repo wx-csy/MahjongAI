@@ -21,7 +21,7 @@ using namespace std;
 int main(){
 	freopen("csy.log","w",stderr);
 	cerr<<"Player:  Shaoyuan CHEN"<<endl;
-	cerr<<"Version: V 1.0.2"<<endl;
+	cerr<<"Version: V 1.1 alpha"<<endl;
 	cerr<<"Author:  wx-csy"<<endl;
 	cerr<<endl;
 	

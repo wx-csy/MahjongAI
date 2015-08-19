@@ -58,6 +58,8 @@ void Hu();
 
 void StatHand();
 bool TestHu();
+bool TestSevenPairs();
+bool TestThirteenHonors(); 
 bool TestColor(int color, int ptr, bool pair);
 
 
