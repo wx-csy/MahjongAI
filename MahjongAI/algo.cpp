@@ -14,7 +14,10 @@ void ActionAfterPick(tile T){
 		Hu();
 		return ;
 	}
+
+	if (WaitingTest()) return;
 	
+	StatHand();
 	if (IsHonor(T.color)){
 		if (HandCount[T.color][0]==1){
 			Out(T);
@@ -45,6 +48,7 @@ void ActionAfterMPick(tile T, bool canchi){
 		Hu();
 		return ;
 	}
+	
 	Hand.pop_back(); 
 	
 	if (IsHonor(T.color)){
@@ -172,8 +176,49 @@ void ActionAfterMPick(tile T, bool canchi){
 	
 }
 
+bool WaitingTest(){
+	// waiting 
+	
+	tiles _Hand(Hand);
+	int listentiles=0;
+	tile maxt=*Hand.begin();
+	int curtiles;
+	for (vit it=_Hand.begin(); it!=_Hand.end(); it++){
+		curtiles=0;
+		MoveTile(*it);
+		for (int i=DONG; i<=BAI;i++){
+			AddTile(MakeTile(i,0));
+			StatHand();
+			if (TestHu()) curtiles+=RTiles[i][0],cerr<<"!!!"<<Tile2Str(MakeTile(i,0))<<" "<<RTiles[i][0]<<endl;
+			MoveTile(MakeTile(i,0));
+			
+		}
+		for (int i=WAN; i<=TONG; i++){
+			for (int j=1;j<=9;j++){
+				AddTile(MakeTile(i,j));
+				StatHand();
+				if (TestHu()) curtiles+=RTiles[i][j],cerr<<"!!!"<<Tile2Str(MakeTile(i,j))<<" "<<RTiles[i][j]<<endl;
+				MoveTile(MakeTile(i,j));
+			}
+		}
+		AddTile(*it);
+		
+		if (curtiles>listentiles){
+			maxt=*it;
+			listentiles=curtiles;
+		}
+	}
+	if (listentiles!=0){
+		cerr<<"Listening!"<<endl;
+		Out(maxt);
+		return true;
+	}
+	return false;
+} 
+
 // decide which tile to cut
 void DecideOut(tile T){
+	
 	// decide honor to cut;
 	int minx=10,id;
 	for (int i=DONG;i<=BAI;i++){
@@ -231,6 +276,7 @@ void DecideOut(tile T){
 
 // decide which tile to cut
 void DecideOut(){
+	
 	// decide honor to cut;
 	int minx=10,id;
 	for (int i=DONG;i<=BAI;i++){

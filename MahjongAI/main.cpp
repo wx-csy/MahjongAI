@@ -19,12 +19,13 @@ using namespace std;
 
 
 int main(){
-	freopen("csy.log","w",stderr);
+	freopen("csy_12.log","w",stderr);
 	cerr<<"Player:  Shaoyuan CHEN"<<endl;
-	cerr<<"Version: V 1.1 alpha"<<endl;
+	cerr<<"Version: V 1.2 alpha"<<endl;
 	cerr<<"Author:  wx-csy"<<endl;
 	cerr<<endl;
 	
+	Initialize();
 	Starting();
 	Gaming();
 	

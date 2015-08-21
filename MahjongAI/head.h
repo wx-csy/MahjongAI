@@ -68,6 +68,7 @@ bool TestColor(int color, int ptr, bool pair);
 void Algo_Initialize();
 void ActionAfterPick(tile T);
 void ActionAfterMPick(tile T, bool canchi);
+bool WaitingTest();
 void DecideOut(tile T);
 void DecideOut();
 void TestQiangGang(tile T);

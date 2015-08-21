@@ -12,6 +12,7 @@ void StatHand(){
 
 bool TestHu(){
 	bool haspair=false;
+	
 	if (TestSevenPairs() || TestThirteenHonors()) return true;
 	for (int i=DONG;i<=BAI;i++){
 		if (ColorCount[i]==1) return false;

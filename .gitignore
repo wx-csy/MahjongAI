@@ -1,5 +1,7 @@
 *.log
 *.exe
+*.csv
+__*__.*
 log/*
 sample/*
 !/update.log
